@@ -1,0 +1,79 @@
+html {
+    width: 1054px;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font-family: 'Roboto' 
+}
+
+p {
+    width: 960px;
+    padding: 10px;
+    margin: auto; 
+    text-align: center;
+    float: right;
+    color: #777777;
+    background-color: #A9A9A9  
+}
+
+.namebox {
+    background-color: #4aaaa5;
+    width: 150px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 10;
+    top: 0;
+    right: -50;
+    position: relative;
+    font-family: 'Roboto', Arial;
+    }
+    
+ .header {
+    background-color: #A9A9A9;
+    height: 63px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+        
+}
+
+ .aboutMeHeader {
+    background-color: white;
+    height: 63px;
+    width: 100%;
+    font-size: 18px;
+           
+}
+
+#aboutme {
+    overflow: auto;
+    padding: 30px;
+    float: left;
+    font-size: 20px;
+    color: #4aaaa5
+    
+ }
+
+ .topnav {
+    top: 0;
+    right: 0;
+    z-index: 10;
+    position: absolute;
+    background-color: #A9A9A9
+     
+    
+}
+ .topnav a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #A9A9A9
+
+}
