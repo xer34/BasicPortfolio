@@ -1,23 +1,32 @@
 html {
-    width: 1054px;
+    max-width: 1024px;
+    margin: auto;
 }
 
 body {
     width: 960px;
     margin: 0 auto;
-    font-family: 'Roboto' 
+    font: 'Arial', 'Helvectica Neue', sans-serif; 
 }
 
 p {
+    border-width: 10px;
+    border-color: #dddddd;
     width: 960px;
     padding: 10px;
     margin: auto; 
     text-align: center;
-    float: right;
     color: #777777;
-    background-color: #A9A9A9  
+    background-color: #ffffff; 
+    float: left;
+     
 }
 
+article {
+    float: left;
+    overflow: auto;
+    position: relative;
+}
 .namebox {
     background-color: #4aaaa5;
     width: 150px;
@@ -27,12 +36,14 @@ p {
     z-index: 10;
     top: 0;
     right: -50;
-    position: relative;
-    font-family: 'Roboto', Arial;
+    position: fixed;
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
     }
     
  .header {
-    background-color: #A9A9A9;
+    background-color: #ffffff;
+    border-width: 5px;
+    border-color: #cccccc;
     height: 63px;
     position: fixed;
     top: 0;
@@ -41,28 +52,26 @@ p {
         
 }
 
- .aboutMeHeader {
-    background-color: white;
-    height: 63px;
+ .h2 {
+    background-color: #ffffff;
+    padding: 20px 0px 0px 20px;
+    height: 50px;
     width: 100%;
-    font-size: 18px;
+    font-size: 25px;
+    float: left;
+    color: #4aaaa5
            
 }
 
-#aboutme {
-    overflow: auto;
-    padding: 30px;
+.mypic {
+    z-index: 20;
     float: left;
-    font-size: 20px;
-    color: #4aaaa5
-    
- }
-
+}
  .topnav {
     top: 0;
     right: 0;
     z-index: 10;
-    position: absolute;
+    position: fixed;
     background-color: #A9A9A9
      
     
@@ -74,6 +83,18 @@ p {
     padding: 14px 15px;
     font-size: 20px;
     text-decoration: none;
-    background-color: #A9A9A9
+    background-color: #ffffff
 
+}
+
+.separatingBar {
+    background-color: #777777;
+    width: 50%;
+    height: 1px;
+    border: 1px #777777;
+    padding: 1px;
+    margin: auto;
+    z-index: 20;
+    float: center;
+        
 }
