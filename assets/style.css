@@ -19,6 +19,7 @@ p {
     color: #777777;
     background-color: #ffffff; 
     float: left;
+    
      
 }
 
@@ -27,6 +28,7 @@ article {
     overflow: auto;
     position: relative;
 }
+
 .namebox {
     background-color: #4aaaa5;
     width: 150px;
@@ -38,7 +40,8 @@ article {
     right: -50;
     position: fixed;
     font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
-    }
+   
+}
     
  .header {
     background-color: #ffffff;
@@ -67,6 +70,7 @@ article {
     z-index: 20;
     float: left;
 }
+
  .topnav {
     top: 0;
     right: 0;
@@ -74,8 +78,8 @@ article {
     position: fixed;
     background-color: #A9A9A9
      
-    
 }
+
  .topnav a {
     float: right;
     color: #777777;
@@ -84,17 +88,28 @@ article {
     font-size: 20px;
     text-decoration: none;
     background-color: #ffffff
+}
+
+
+input[type=text], select, textarea {
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+    width: 95%;
+    padding: 12px;
 
 }
 
-.separatingBar {
-    background-color: #777777;
-    width: 50%;
-    height: 1px;
-    border: 1px #777777;
-    padding: 1px;
-    margin: auto;
-    z-index: 20;
-    float: center;
-        
+form {
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff
+    
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+   
 }

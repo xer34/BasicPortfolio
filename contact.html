@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="assets/style.css"
     </head>
+    <!-- <link rel="stylesheet" href="reset.css"> -->
  <body background="assets/background.png">
     <div class="header"> </div>
     <div class="namebox">Alexander Lewis</div>
@@ -18,4 +19,17 @@
 <br>
 <div class="h2">Contact</div>
 
-<div class="separatingBar">...</div>
+<form>
+    <label for="fname">First Name</label>
+    <input type="text" name="firstname" id="fname" placeholder="Your Name"><br><br>
+
+    <label for="lname">Last Name</label>
+    <input type="text" name="lastname" id="lname" placeholder="Your Last Name"><br><br>
+    
+    <label for="contact">Contact Me</label>
+    <textarea id="contact" name="contactme" placeholder="Write Something..." style="height:200px"></textarea><br><br>
+
+    <input type="submit" value="Submit">
+
+</form>
+</div>
