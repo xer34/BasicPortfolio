@@ -1,0 +1,148 @@
+html {
+    max-width: 1024px;
+    margin: auto;
+}
+
+body {
+    width: 960px;
+    margin: 0 auto;
+    font: 'Arial', 'Helvectica Neue', sans-serif; 
+}
+
+p {
+    border-width: 10px;
+    border-color: #dddddd;
+    width: 960px;
+    padding: 10px;
+    margin: auto; 
+    text-align: center;
+    color: #777777;
+    background-color: #ffffff; 
+    float: left;
+    
+     
+}
+
+article {
+    float: left;
+    overflow: auto;
+    position: relative;
+}
+
+.namebox {
+    background-color: #4aaaa5;
+    width: 150px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 10;
+    top: 0;
+    right: -50;
+    position: fixed;
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+   
+}
+    
+ .header {
+    background-color: #ffffff;
+    border-width: 5px;
+    border-color: #cccccc;
+    height: 63px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+        
+}
+
+ .h2 {
+    background-color: #ffffff;
+    padding: 20px 0px 0px 20px;
+    height: 50px;
+    width: 100%;
+    font-size: 25px;
+    float: left;
+    color: #4aaaa5
+           
+}
+
+.mypic {
+    z-index: 20;
+    float: left;
+}
+
+ .topnav {
+    top: 0;
+    right: 0;
+    z-index: 10;
+    position: fixed;
+    background-color: #A9A9A9
+     
+}
+
+ .topnav a {
+    float: right;
+    color: #777777;
+    text-align: center;
+    padding: 14px 15px;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ffffff
+}
+
+
+input[type=text], select, textarea {
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+    width: 95%;
+    padding: 12px;
+
+}
+
+form {
+    font-family: 'Arial', 'Helvectica Neue', Helvetica, sans-serif;
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff
+    
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+   
+}
+
+.img {
+  height: 100px;
+  width: 18%;
+  padding: 1%;
+  margin: 1%;
+  background-color: grey;
+  
+}
+
+.one {
+   float: left
+   
+   }
+  
+ .two {
+   float: left
+   }
+   
+ .three {
+   clear: both;
+   float: left
+   
+      }
+   
+  .four {
+   float: left
+   }
+   
+.five {
+  float: left;
+  clear: both;
+}
