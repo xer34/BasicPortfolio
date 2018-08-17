@@ -113,3 +113,46 @@ input[type=submit] {
     border: none;
    
 }
+
+.img {
+  height: 25px;
+  width: 200px;
+  padding: 1%;
+  margin: 1%;
+  background-color: #4aaaa5;
+  text-align: center;
+  color: #eeeeee;
+  z-index: 3;
+  position: relative;
+  
+}
+
+.one {
+    float: left
+  
+   
+   }
+  
+ .two {
+   float: left
+   }
+   
+ .three {
+   clear: both;
+   float: left
+   
+      }
+   
+  .four {
+   float: left
+   }
+   
+.five {
+  float: left;
+  clear: both;
+}
+
+img {
+  float: left;
+  z-index: 5;
+ }
