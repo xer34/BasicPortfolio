@@ -59,9 +59,8 @@ article {
     background-color: #ffffff;
     padding: 20px 0px 0px 20px;
     height: 50px;
-    width: 100%;
+    width: 960px;
     font-size: 25px;
-    float: left;
     color: #4aaaa5
            
 }
@@ -114,52 +113,67 @@ input[type=submit] {
    
 }
 
-.img {
+.images {
+    background-color: white;
+    height: 960px;
+    width: 1024px;
+}
+
+.box {
+  
   height: 25px;
   width: 180px;
-  padding: 5px;
-  margin: 20px;
+  padding: 10px;
+  margin: 25px;
   background-color: #4aaaa5;
   text-align: center;
   color: #eeeeee;
-  position: relative;
-   
-}
-
-.one {
-    float: left;
-    clear: both;
-    }
-  
-.two {
-   float: right;
-    }
-   
- .three {
-    float: left;
-   clear: both;
-      }
-   
-.four {
-   float: right;
-   }
-   
-.five {
   float: left;
-  clear: both;
-  
-}
-
-.boxes {
-  z-index: 3;
   position: absolute;
+  z-index: 5;
+       
 }
 
-.images {
-  float: left;
-  z-index: 1;
-  position: relative;
+.img {
   padding: 5px;
   margin: 20px;
+  float: left;
+  position: relative;
+  z-index: 2;
+  }
+
+.three {
+    clear: both;
+}
+
+.five {
+    clear: both;
+}
+
+.body {
+    width: 940px;
+    height: 960px;
+    background-color: white;
    }
- 
+
+.pbody {
+    width: 980px;
+    height: 960px;
+    background-color: white;
+    }
+
+footer{
+    width: 100%;
+    background-color: #666666;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+    font-size: 10px;
+    margin-left: 0px;
+    border-top: 5px solid aqua;
+    margin-top: 30px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    }
