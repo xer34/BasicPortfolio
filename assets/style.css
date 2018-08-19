@@ -53,17 +53,18 @@ article {
     top: 0;
     left: 0;
     width: 100%;
-        
+
 }
 
  .h2 {
+    border: 5px #4aaaa5;
     background-color: #ffffff;
     padding: 20px 0px 0px 20px;
     height: 50px;
     width: 960px;
     font-size: 25px;
-    color: #4aaaa5
-           
+    color: #4aaaa5  
+
 }
 
 .mypic {
@@ -111,7 +112,7 @@ input[type=submit] {
     color: white;
     padding: 12px 20px;
     border: none;
-   
+
 }
 
 .box     {
@@ -128,12 +129,13 @@ input[type=submit] {
 }
 
 .pbody {
-  position: relative;
+  
   z-index: 2;
   width: 980px;
   height: 960px;
   background-color: white;
-  }
+
+}
 
 .one {
     top: 200px;
@@ -154,7 +156,8 @@ input[type=submit] {
 .four {
     top: 400px;
     right: 400px;
-    }
+
+}
 
 .five {
     top: 600px;
@@ -167,7 +170,7 @@ input[type=submit] {
     background-color: white;
    }
 
-footer{
+footer {
     width: 100%;
     background-color: #666666;
     color: #ffffff;
@@ -181,29 +184,5 @@ footer{
     left: 0;
     bottom: 0;
     z-index: 5;
-    }
 
-.imgone {
-    top: 200px;
-    left: 200px;
-}
-    
-.imgtwo {
-    top: 200px;
-    right: 400px;
-}
-   
-.imgthree {
-    top: 400px;
-    left: 200px;
-}
-    
-.imgfour {
-        top: 400px;
-        right: 400px;
-        }
-    
-.imgfive {
-        top: 600px;
-        left: 200px;
 }
