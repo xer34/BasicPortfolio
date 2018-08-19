@@ -114,41 +114,51 @@ input[type=submit] {
    
 }
 
-.images {
-    background-color: white;
-    height: 960px;
-    width: 1024px;
-}
-
-.box {
-  
+.box     {
   height: 25px;
-  width: 180px;
-  padding: 10px;
-  margin: 25px;
+  width: 200px;
+  padding: 15px;
+  margin: 50px;
   background-color: #4aaaa5;
   text-align: center;
   color: #eeeeee;
-  float: left;
   position: absolute;
   z-index: 5;
        
 }
 
-.img {
-  padding: 5px;
-  margin: 20px;
-  float: left;
+.pbody {
   position: relative;
   z-index: 2;
+  width: 980px;
+  height: 960px;
+  background-color: white;
   }
 
-.three {
-    clear: both;
+.one {
+    top: 200px;
+    left: 200px;
 }
 
+.two {
+    top: 200px;
+    right: 400px;
+}
+
+.three {
+    top: 400px;
+    left: 200px;
+
+}
+
+.four {
+    top: 400px;
+    right: 400px;
+    }
+
 .five {
-    clear: both;
+    top: 600px;
+    left: 200px;
 }
 
 .body {
@@ -156,12 +166,6 @@ input[type=submit] {
     height: 960px;
     background-color: white;
    }
-
-.pbody {
-    width: 980px;
-    height: 960px;
-    background-color: white;
-    }
 
 footer{
     width: 100%;
@@ -178,3 +182,28 @@ footer{
     bottom: 0;
     z-index: 5;
     }
+
+.imgone {
+    top: 200px;
+    left: 200px;
+}
+    
+.imgtwo {
+    top: 200px;
+    right: 400px;
+}
+   
+.imgthree {
+    top: 400px;
+    left: 200px;
+}
+    
+.imgfour {
+        top: 400px;
+        right: 400px;
+        }
+    
+.imgfive {
+        top: 600px;
+        left: 200px;
+}
