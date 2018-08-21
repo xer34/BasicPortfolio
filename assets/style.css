@@ -115,17 +115,26 @@ input[type=submit] {
 
 }
 
-.box     {
-  height: 25px;
-  width: 200px;
-  padding: 15px;
-  margin: 50px;
-  background-color: #4aaaa5;
-  text-align: center;
-  color: #eeeeee;
-  position: absolute;
-  z-index: 5;
+.box {
+    position: relative;
+}
        
+
+.boxes {
+        height: 25px;
+        width: 200px;
+        padding: 15px;
+        margin: 50px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #eeeeee;
+        position: absolute;
+        z-index: 5;
+    
+}
+
+.img {
+    position: absolute;
 }
 
 .pbody {
@@ -134,34 +143,34 @@ input[type=submit] {
   width: 980px;
   height: 960px;
   background-color: white;
-
+  position: relative;
 }
 
 .one {
-    top: 200px;
-    left: 200px;
+    top: 0px;
+    left: 10px;
 }
 
 .two {
-    top: 200px;
-    right: 400px;
+    top: 0px;
+    right: 500px;
 }
 
 .three {
-    top: 400px;
-    left: 200px;
+    top: 250px;
+    left: 10px;
 
 }
 
 .four {
-    top: 400px;
-    right: 400px;
+    top: 250px;
+    right: 500px;
 
 }
 
 .five {
-    top: 600px;
-    left: 200px;
+    top: 500px;
+    left: 10px;
 }
 
 .body {
